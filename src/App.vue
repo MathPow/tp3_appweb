@@ -49,7 +49,7 @@ import { useTokensStore } from '@/stores/TokensStore.js';
 <script>
 
 import { getGenres, logout} from '@/services/MovieService.js';
-
+console.log(import.meta.env.API_REST_URL)
 export default {
     // setup() {
     //     const tokensStore = useTokensStore();
